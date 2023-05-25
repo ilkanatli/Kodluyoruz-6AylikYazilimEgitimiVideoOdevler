@@ -48,7 +48,7 @@ public class Main {
 
         System.out.println("Ucgenin cevresi: "  + cevre);
 
-        // Alan * Alan = 𝑢 * (𝑢 − 𝑎) * (𝑢 − 𝑏) * (𝑢 − 𝑐)
+        // Alan * Alan = u * (u − 𝑎) * (u − 𝑏) * (u − 𝑐)
 
         alan = Math.sqrt(u * (u - a) * (u - b) * (u- c));
 
