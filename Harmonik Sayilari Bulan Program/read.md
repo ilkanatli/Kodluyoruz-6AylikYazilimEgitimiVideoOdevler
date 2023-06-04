@@ -4,4 +4,4 @@
 
 ## Harmonik Seri Formülü :
 
-![](../../../../LKAN~1/AppData/Local/Temp/download.png)
+![imagine](img.png)
