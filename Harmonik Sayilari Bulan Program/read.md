@@ -4,4 +4,5 @@
 
 ## Harmonik Seri Formülü :
 
+
 ![imagine](img.png)
