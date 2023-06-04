@@ -13,7 +13,7 @@ public class Main {
         System.out.print("N sayisini giriniz: ");
         n = scan.nextInt();
 
-        // result ve i yi double tanımladık double / double => bir double souç versin diye.
+        // result ve i yi double tanımladık double / double => bir double sonuç versin diye.
 
         // Döngü ile harmonik seriyi oluşturalım.
 

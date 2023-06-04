@@ -4,4 +4,4 @@
 
 ## Harmonik Seri Formülü :
 
-![Harmonik Seri Formül](![img.png](img.png))
+    ![imagine](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/java101/pratik-harmonic/figures/harmonic_series.gif)
