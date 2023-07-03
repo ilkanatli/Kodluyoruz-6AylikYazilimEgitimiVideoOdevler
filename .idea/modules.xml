@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ATM Projesi/ATM Projesi.iml" filepath="$PROJECT_DIR$/ATM Projesi/ATM Projesi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AdventureGame/AdventureGame.iml" filepath="$PROJECT_DIR$/AdventureGame/AdventureGame.iml" />
       <module fileurl="file://$PROJECT_DIR$/Armstrong Sayilari Bulan Program/Armstrong Sayilari Bulan Program.iml" filepath="$PROJECT_DIR$/Armstrong Sayilari Bulan Program/Armstrong Sayilari Bulan Program.iml" />
       <module fileurl="file://$PROJECT_DIR$/Artik Yil Hesaplama/Artik Yil Hesaplama.iml" filepath="$PROJECT_DIR$/Artik Yil Hesaplama/Artik Yil Hesaplama.iml" />
       <module fileurl="file://$PROJECT_DIR$/AsalSayiBulanProgram/AsalSayiBulanProgram.iml" filepath="$PROJECT_DIR$/AsalSayiBulanProgram/AsalSayiBulanProgram.iml" />
