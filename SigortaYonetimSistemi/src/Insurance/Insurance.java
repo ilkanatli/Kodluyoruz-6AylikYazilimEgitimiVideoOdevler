@@ -50,4 +50,5 @@ public abstract class Insurance {
     public abstract void calculate();
 
     public abstract String toString();
+
 }

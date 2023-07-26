@@ -25,4 +25,5 @@ public class Enterprise extends Account {
         super.insurances.add(insurance);
     }
 
+
 }

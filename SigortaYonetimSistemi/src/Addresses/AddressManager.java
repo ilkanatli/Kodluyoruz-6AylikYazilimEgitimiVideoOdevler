@@ -10,4 +10,5 @@ public class AddressManager {
     public static void removeAddress(User user, Address address) {
         user.getAddresses().remove(address);
     }
+
 }

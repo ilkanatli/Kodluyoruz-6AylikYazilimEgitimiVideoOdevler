@@ -89,4 +89,5 @@ public class CarInsurance extends Insurance{private String carMake;
                 + ", coverageForDrivers=" + coverageForDrivers + ", coverageForPassengers=" + coverageForPassengers
                 + "]";
     }
+
 }

@@ -112,4 +112,5 @@ public abstract class Account implements Comparable<Account> {
     public void setInsurances(ArrayList<Insurance> insurances) {
         this.insurances = insurances;
     }
+
 }

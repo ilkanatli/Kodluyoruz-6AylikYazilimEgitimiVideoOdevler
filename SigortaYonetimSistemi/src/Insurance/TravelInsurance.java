@@ -46,4 +46,5 @@ public class TravelInsurance extends Insurance {private List<String> coveredCoun
                 + ", endDate=" + getEndDate()
                 + ", coveredCountries=" + coveredCountries + ", duration=" + duration + "]";
     }
+
 }

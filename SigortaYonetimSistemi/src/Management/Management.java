@@ -99,4 +99,5 @@ public class Management{
     public boolean isHaveAccount() {
         return accountManager.getAccountList().isEmpty();
     }
+
 }

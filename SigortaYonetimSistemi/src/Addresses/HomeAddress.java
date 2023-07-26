@@ -52,4 +52,5 @@ public class HomeAddress implements Address {
                 + postalCode
                 + "]";
     }
+
 }

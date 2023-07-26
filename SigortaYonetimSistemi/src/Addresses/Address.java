@@ -16,4 +16,5 @@ public interface Address {
     public String getPostalCode();
 
     public void setPostalCode(String postalCode);
+
 }

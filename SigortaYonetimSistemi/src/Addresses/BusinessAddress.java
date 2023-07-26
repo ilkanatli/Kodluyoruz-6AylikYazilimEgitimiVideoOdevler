@@ -61,4 +61,5 @@ public class BusinessAddress implements Address {
         return "BusinessAddress [street=" + street + ", city=" + city + ", country=" + country + ", postalCode="
                 + postalCode + ", companyName=" + companyName + "]";
     }
+
 }
