@@ -33,8 +33,8 @@ public class ResidenceInsurance extends Insurance {
         double basePrice = getPrice();
         double buildingValue = getBuildingValue();
         double contentValue = getContentValue();
-        // calculate the premium based on the base price, building value, and content
-        // value
+        // primi taban fiyat, bina değeri ve içeriğe göre hesaplayın
+        // değer
         double premium = basePrice + (buildingValue * 0.002) + (contentValue * 0.001);
         setPrice(premium);
     }

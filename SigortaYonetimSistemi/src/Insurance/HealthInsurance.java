@@ -44,8 +44,8 @@ public class HealthInsurance extends Insurance {
         double basePrice = getPrice();
         boolean coverageForPreExistingCondition = isCoverageForPreExistingCondition();
         double coverageLimit = getCoverageLimit();
-        // calculate the premium based on the base price, coverage for pre-existing
-        // condition and coverage limit
+        // primi taban fiyata göre hesaplayın, önceden var olan teminatlar için teminat
+        // koşul ve kapsam limiti
         double premium = basePrice;
         if (coverageForPreExistingCondition) {
             premium += (basePrice * 0.05);

@@ -28,7 +28,6 @@ public class User {
     }
 
 
-
     public String getName() {
         return name;
     }
@@ -108,4 +107,5 @@ public class User {
     public boolean checkPassword(String password) {
         return this.password.equals(password);
     }
+
 }

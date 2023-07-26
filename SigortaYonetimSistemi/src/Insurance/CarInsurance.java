@@ -66,8 +66,8 @@ public class CarInsurance extends Insurance{private String carMake;
         int carAge = getCarAge();
         boolean coverageForDrivers = isCoverageForDrivers();
         boolean coverageForPassengers = isCoverageForPassengers();
-        // calculate the premium based on the base price, car make and model, car age,
-        // coverage for drivers and coverage for passengers
+        // taban fiyat, otomobil markası ve modeli, otomobil yaşına göre prim hesaplamak,
+        // sürücüler için teminat ve yolcular için teminat
         double premium = basePrice;
         if (carMake.equals(carModel)) {
             premium += (basePrice * 0.05);

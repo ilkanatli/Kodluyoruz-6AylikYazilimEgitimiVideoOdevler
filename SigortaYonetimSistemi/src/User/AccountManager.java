@@ -34,5 +34,4 @@ public class AccountManager {
     public TreeSet<Account> getAccountList() {
         return accountList;
     }
-
 }

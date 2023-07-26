@@ -20,14 +20,14 @@ public class Management{
     }
 
     public void displayMenu() {
-        System.out.println("#################################################");
-        System.out.println("Policy Management Panel!");
-        System.out.println("1. Add user (Individual or Enterprise)");
-        System.out.println("2. Login");
-        System.out.println("3. Show List Accounts");
-        System.out.println("0. Exit");
-        System.out.println("#################################################");
-        System.out.print("Enter your choice: ");
+        System.out.println("================================================");
+        System.out.println("Sigorta Yonetim Sistemi!");
+        System.out.println("1. Kullanici Ekle (Bireysel(Individual) veya Kurumsal(Enterprise)");
+        System.out.println("2. Giris yapmak");
+        System.out.println("3. Liste Hesaplarini Goster");
+        System.out.println("0. Cikis");
+        System.out.println("================================================");
+        System.out.print("Secimini gir: ");
     }
 
     public void addUser(String userType, String name, String surname, String email, String password, String profession,
@@ -36,13 +36,13 @@ public class Management{
         if (userType.equalsIgnoreCase("I")) {
             Account account = new Individual(user);
             accountManager.addAccount(account);
-            System.out.println("User added successfully!");
+            System.out.println("Kullanici basari ile eklendi!");
         } else if (userType.equalsIgnoreCase("E")) {
             Account account = new Enterprise(user, companyName);
             accountManager.addAccount(account);
-            System.out.println("User added successfully!");
+            System.out.println("Kullanici basari ile eklendi!");
         } else {
-            System.out.println("Invalid user type,Please try again!");
+            System.out.println("Gecersiz kullanici turu, lutfen tekrar deneyiniz!");
         }
     }
 
@@ -54,27 +54,26 @@ public class Management{
     }
 
     public void afterLoginMenu() {
-        System.out.println("#################################################");
-        System.out.println("1. Add address");
-        System.out.println("2. Add insurance");
-        System.out.println("3. Show user info");
-        System.out.println("0. Logout");
-        System.out.println("#################################################");
-        System.out.print("Enter your choice: ");
+        System.out.println("================================================");
+        System.out.println("1. Adres Ekle");
+        System.out.println("2. Sigorta ekle");
+        System.out.println("3. Kullanici bilgilerini goster");
+        System.out.println("0. Cikis yap");
+        System.out.println("================================================");
+        System.out.print("Secimini gir: ");
     }
 
     public void addHomeAddress(User user, String streetAddress, String city, String state, String zipCode) {
         Address homeAddress = new HomeAddress(streetAddress, city, zipCode, state);
         AddressManager.addAddress(user, homeAddress);
-        System.out.println("Successfully added home address!");
-
+        System.out.println("Ev adresi basari ile eklendi!");
     }
 
     public void addBusinessAddress(User user, String companyName, String streetAddress, String city, String state,
                                    String zipCode) {
         Address businessAddress = new BusinessAddress(streetAddress, city, zipCode, state, companyName);
         AddressManager.addAddress(user, businessAddress);
-        System.out.println("Successfully added business address!");
+        System.out.println("Is adresi basari ile eklendi!");
     }
 
     public void showUserInfo(Account account) {
@@ -84,7 +83,7 @@ public class Management{
     public void listAccounts() {
         TreeSet<Account> accountList = accountManager.getAccountList();
         if (accountList.isEmpty()) {
-            System.out.println("No accounts found in the system");
+            System.out.println("Sistemde hesap bulunamadi");
             return;
         }
         String format = "| %-15s | %-15s | %-25s |%-15s | %-20s | %-8s | %-25s | %-15s |\n";

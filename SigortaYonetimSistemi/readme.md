@@ -20,7 +20,7 @@ Müşteri profili için **"Account"** isminde soyut sınıf **(abstract class)**
 
 - yaş (int),
 
-- adres listesi (ArrayList<Address>)
+- adres listesi (ArrayList<'Address'>)
 
 - sisteme son giriş tarihi (Date)
 

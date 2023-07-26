@@ -34,8 +34,8 @@ public class TravelInsurance extends Insurance {private List<String> coveredCoun
         double basePrice = getPrice();
         int duration = getDuration();
         int numberOfCountries = getCoveredCountries().size();
-        // calculate the premium based on the base price, duration, and number of
-        // covered countries
+        // baz fiyat, süre ve adede göre prim hesaplamak
+        // kapsanan ülkeler
         double premium = basePrice + (basePrice * 0.1 * duration) + (basePrice * 0.05 * numberOfCountries);
         setPrice(premium);
     }

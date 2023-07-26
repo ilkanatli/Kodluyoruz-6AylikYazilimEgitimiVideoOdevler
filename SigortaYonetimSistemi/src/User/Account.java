@@ -74,13 +74,13 @@ public abstract class Account implements Comparable<Account> {
 
     @Override
     public int compareTo(Account other) {
-        // you can compare accounts based on the email
+        // hesapları e-postaya göre karşılaştırabilirsiniz
         return this.user.getEmail().compareTo(other.user.getEmail());
     }
 
     @Override
     public int hashCode() {
-        // you can use the email as the basis for the hash code
+        // e-postayı karma kodun temeli olarak kullanabilirsiniz
         return user.getEmail().hashCode();
     }
 
@@ -93,7 +93,7 @@ public abstract class Account implements Comparable<Account> {
             return false;
         }
         Account other = (Account) obj;
-        // you can check if two accounts are equal based on the email
+        // e-postaya göre iki hesabın eşit olup olmadığını kontrol edebilirsiniz
         return this.user.getEmail().equals(other.user.getEmail());
     }
 

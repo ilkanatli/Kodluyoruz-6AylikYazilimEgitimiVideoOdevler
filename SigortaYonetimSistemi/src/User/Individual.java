@@ -14,4 +14,5 @@ public class  Individual extends Account {
         insurance.setPrice(price);
         super.insurances.add(insurance);
     }
+
 }
